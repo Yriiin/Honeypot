@@ -89,42 +89,42 @@ body{
   
   .home-click {
     cursor: pointer;
-    font-weight: bold; /* Optional styling for "Home" */
+    font-weight: bold;
   }
   
   .dropdown {
     position: relative;
-    display: inline-block; /* Enable dropdown visibility */
+    display: inline-block;
   }
   
   .dropdown span {
     display: block;
-    padding-right: 10px; /* Provides space for the dropdown icon */
-    cursor: pointer; /* Enables hover for dropdown activation */
+    padding-right: 10px; 
+    cursor: pointer;
   }
   
   .dropdown .fas {
     position: absolute;
     top: 50%;
     right: 0;
-    transform: translateY(-50%); /* Align icon vertically */
+    transform: translateY(-50%); 
   }
   
-  /* Optional hover effect for dropdown items */
+
   .dropdown:hover span {
-    color: #007bff; /* Change text color on hover */
+    color: #007bff; 
   }
   
   .contact-btn {
-    background-color: #007bff; /* Replace with your desired color */
+    background-color: #007bff; 
     color: #fff;
     padding: 10px 20px;
     border: none;
-    border-radius: 50px; /* Creates the oval shape */
+    border-radius: 50px; 
     cursor: pointer;
   }
   
-  /* Optional hover effect for "Home" */
+
   .home-click:hover {
-    color: #007bff; /* Change text color on hover */
+    color: #007bff; 
   }
